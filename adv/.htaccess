@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^adv\.ramiqcom\.xyz$
+RewriteRule ^/?$ "https\:\/\/ramiqcom\.users\.earthengine\.app\/view\/adv" [R=301,L]
+
